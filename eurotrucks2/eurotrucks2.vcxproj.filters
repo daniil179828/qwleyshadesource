@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files"><UniqueIdentifier>{EF0C6315-D3F6-5C9F-8918-491D529069C3}</UniqueIdentifier></Filter>
+    <Filter Include="Header Files"><UniqueIdentifier>{164DF0DB-0406-559D-B70C-D847075E089E}</UniqueIdentifier></Filter>
+    <Filter Include="ImGui"><UniqueIdentifier>{0371591D-2464-555A-BDB2-BEFA7B1F931D}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="overlay.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UiControlClient.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\common\UiControlProtocol.h"><Filter>Header Files</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\external\imgui\imgui.cpp"><Filter>ImGui</Filter></ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_draw.cpp"><Filter>ImGui</Filter></ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_tables.cpp"><Filter>ImGui</Filter></ClCompile>
+    <ClCompile Include="..\external\imgui\imgui_widgets.cpp"><Filter>ImGui</Filter></ClCompile>
+    <ClCompile Include="..\external\imgui\backends\imgui_impl_win32.cpp"><Filter>ImGui</Filter></ClCompile>
+    <ClCompile Include="..\external\imgui\backends\imgui_impl_dx11.cpp"><Filter>ImGui</Filter></ClCompile>
+    <ClInclude Include="..\external\imgui\imgui.h"><Filter>ImGui</Filter></ClInclude>
+    <ClInclude Include="..\external\imgui\imgui_internal.h"><Filter>ImGui</Filter></ClInclude>
+    <ClInclude Include="..\external\imgui\imconfig.h"><Filter>ImGui</Filter></ClInclude>
+    <ClInclude Include="..\external\imgui\imstb_rectpack.h"><Filter>ImGui</Filter></ClInclude>
+    <ClInclude Include="..\external\imgui\imstb_textedit.h"><Filter>ImGui</Filter></ClInclude>
+    <ClInclude Include="..\external\imgui\imstb_truetype.h"><Filter>ImGui</Filter></ClInclude>
+    <ClInclude Include="..\external\imgui\backends\imgui_impl_win32.h"><Filter>ImGui</Filter></ClInclude>
+    <ClInclude Include="..\external\imgui\backends\imgui_impl_dx11.h"><Filter>ImGui</Filter></ClInclude>
+  </ItemGroup>
+</Project>
